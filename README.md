@@ -1,4 +1,4 @@
-# The Internet is dying.
+# The Internet is dying
 
 Algorithms will increasingly feed you a steady diet of AI slop and content that does not serve you. If we want to save the Internet that we know and love, we have to feature promising content creators ourselves.
 
