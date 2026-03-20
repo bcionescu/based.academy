@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Internet doesn't have to die.">
+	<title>Based Academy</title>
+	<link rel="stylesheet" href="/css/styles.css">
+	<!-- <link rel="alternate" type="application/atom+xml" title="Blog Feed" href="/feed.atom"> -->
+</head>
+
+<body>
+	<div id="header"></div>
+
+	<div class="container">
+      <p>The Internet is dying.</p>
+
+      <p>Over the next few years, algorithms will feed you a steadily increasing diet of AI slop, and content that does not serve you. It does not have to be this way.</p>
+
+      <br><br>
+      📍 The internet starts here:
+      <br><br>
+			Sylvan Franklin
+      <span>
+			<a href="https://youtube.com/sylvanfranklin/" class="body-link">> YouTube</a> | 
+			<a href="https://sylvanfranklin.com/" class="body-link">Website</a> | 
+			<a href="https://x.com/SylvanFranklin_" class="body-link">X</a>
+      </span>
+			<br>
+			<p>
+      <p>Channel description here.</p>
+			</p>
+			<br>
+
+
+		</div>
+
+	<footer id="footer"></footer>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			fetch('/templates/header.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('header').innerHTML = data);
+
+			fetch('/templates/footer.html')
+				.then(response => response.text())
+				.then(data => document.getElementById('footer').innerHTML = data);
+		});
+	</script>
+
+</body>
+
+</html>
