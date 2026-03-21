@@ -19,12 +19,11 @@
 
     <content type="html">
       <![CDATA[
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-        <span>
+        <span> [
         <a href="https://youtube.com/sylvanfranklin/" target="_blank" rel="noopener" class="body-link">YouTube</a> | 
         <a href="https://sylvanfranklin.com/" target="_blank" rel="noopener" class="body-link">Website</a> | 
         <a href="https://x.com/SylvanFranklin_" target="_blank" rel="noopener" class="body-link">X</a> | 
-        <a href="https://github.com/sylvanfranklin" target="_blank" rel="noopener" class="body-link">GitHub</a>
+        <a href="https://github.com/sylvanfranklin" target="_blank" rel="noopener" class="body-link">GitHub</a> ]
         </span>
         <p>Vimothée Chalamet, the Lisan al-Gaib of the Vim world. Known for doing five internships at once, reading Dune in a mental institution, and <a href="https://www.youtube.com/watch?v=Nz5a6zV6zQQ" target="_blank" rel="noopener" class="body-link">rizzing up a Greek girl while teaching her how to use Vim.</a></p>
         </h3>
