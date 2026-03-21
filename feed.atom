@@ -4,7 +4,7 @@
 <title>Based Academy</title>
 <link href="https://based.academy/" />
 <link href="https://based.academy/feed.atom" rel="self" />
-<updated>2026-03-21T18:01:00Z</updated>
+<updated>2026-03-21T19:53:00Z</updated>
 <id>https://based.academy/</id>
 <author>
 <name>Based Academy</name>
@@ -19,10 +19,10 @@
 
     <content type="html">
       <![CDATA[
-        <a href="https://youtube.com/sylvanfranklin/" target="_blank" rel="noopener" class="body-link"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
-        <a href="https://sylvanfranklin.com/" target="_blank" rel="noopener" class="body-link"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
-        <a href="https://x.com/SylvanFranklin_" target="_blank" rel="noopener" class="body-link"><img src="/assets/x-twitter.svg" width="24" height="24" alt="X" class="icon"></a>
-        <a href="https://github.com/sylvanfranklin" target="_blank" rel="noopener" class="body-link"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <a href="https://youtube.com/sylvanfranklin/" target="_blank" rel="noopener"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://sylvanfranklin.com/" target="_blank" rel="noopener"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://x.com/SylvanFranklin_" target="_blank" rel="noopener"><img src="/assets/x-twitter.svg" width="24" height="24" alt="X" class="icon"></a>
+        <a href="https://github.com/sylvanfranklin" target="_blank" rel="noopener"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
 
         <p>Vimothée Chalamet, the Lisan al-Gaib of the Vim world. Known for doing five internships at once, reading Dune in a mental institution, and <a href="https://www.youtube.com/watch?v=Nz5a6zV6zQQ" target="_blank" rel="noopener" class="body-link">rizzing up a Greek girl while teaching her how to use Vim.</a></p>
       ]]>
@@ -37,10 +37,10 @@
 
     <content type="html">
       <![CDATA[
-        <a href="https://www.youtube.com/@LukeSmithxyz" target="_blank" rel="noopener" class="body-link"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
-        <a href="https://videos.lukesmith.xyz/" target="_blank" rel="noopener" class="body-link"><img src="/assets/play.svg" width="24" height="24" alt="PeerTube" class="icon"></a>
-        <a href="https://lukesmith.xyz/" target="_blank" rel="noopener" class="body-link"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
-        <a href="https://github.com/lukesmithxyz" target="_blank" rel="noopener" class="body-link"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <a href="https://www.youtube.com/@LukeSmithxyz" target="_blank" rel="noopener"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://videos.lukesmith.xyz/" target="_blank" rel="noopener"><img src="/assets/play.svg" width="24" height="24" alt="PeerTube" class="icon"></a>
+        <a href="https://lukesmith.xyz/" target="_blank" rel="noopener"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://github.com/lukesmithxyz" target="_blank" rel="noopener"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
 
         <p>Based Christian Orthodox priest, known for ranting in the woods, using Vim, and helping popularize Linux by using funny images of based frogs. He also has an <a href="https://www.youtube.com/watch?v=9lDTdLQnSQo&list=PL-p5XmQHB_JQTeUxtGBI7sHCOOuY4qT-B&index=2&pp=iAQB" target="_blank" rel="noopener" class="body-link">obscure podcast</a> that a couple of people listen to.</p>
       ]]>
@@ -55,11 +55,11 @@
 
     <content type="html">
       <![CDATA[
-        <a href="https://youtube.com/@bcionescu" target="_blank" rel="noopener" class="body-link"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
-        <a href="https://bcionescu.com" target="_blank" rel="noopener" class="body-link"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
-        <a href="https://geni.us/basedbooks" target="_blank" rel="noopener" class="body-link"><img src="/assets/book-bookmark.svg" width="24" height="24" alt="Books" class="icon"></a>
-        <a href="https://x.com/bcionescu_" target="_blank" rel="noopener" class="body-link"><img src="/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
-        <a href="https://github.com/bcionescu" target="_blank" rel="noopener" class="body-link"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <a href="https://youtube.com/@bcionescu" target="_blank" rel="noopener"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://bcionescu.com" target="_blank" rel="noopener"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://geni.us/basedbooks" target="_blank" rel="noopener"><img src="/assets/book-bookmark.svg" width="24" height="24" alt="Books" class="icon"></a>
+        <a href="https://x.com/bcionescu_" target="_blank" rel="noopener"><img src="/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
+        <a href="https://github.com/bcionescu" target="_blank" rel="noopener"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
 
         <p>A 33 yo white-haired boomer known for <a href="https://www.youtube.com/watch?v=1qgb8gbk9eo" target="_blank" rel="noopener" class="body-link">reading the Vim manual in its entirety on YouTube</a>, <a href="https://geni.us/basedbooks" target="_blank" rel="noopener" class="body-link">writing science fiction novels</a>, and occasionally making videos about computers, or ranting in the woods.</p>
         </p>

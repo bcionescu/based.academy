@@ -114,13 +114,14 @@ h2 {
 }
 
 a.body-link {
-	color: #fd9e22;
-	text-decoration: none;
-	transition: color 0.3s ease;
+    color: #fd9e22;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(253, 158, 34, 0.3);
+    transition: border-color 0.3s ease;
 }
 
 a.body-link:hover {
-	color: #FFBE69;
+    border-bottom-color: #FFBE69;
 }
 
 .top-links-container {
