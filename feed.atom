@@ -26,7 +26,26 @@
         <a href="https://github.com/sylvanfranklin" target="_blank" rel="noopener" class="body-link">GitHub</a> ]
         </span>
         <p>Vimothée Chalamet, the Lisan al-Gaib of the Vim world. Known for doing five internships at once, reading Dune in a mental institution, and <a href="https://www.youtube.com/watch?v=Nz5a6zV6zQQ" target="_blank" rel="noopener" class="body-link">rizzing up a Greek girl while teaching her how to use Vim.</a></p>
-        </h3>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Luke Smith</title>
+    <link href="https://based.academy/"/>
+    <id>https://based.academy/</id>
+    <updated>2026-03-21T10:00:00Z</updated>
+
+    <content type="html">
+      <![CDATA[
+        <span> [
+        <a href="https://www.youtube.com/@LukeSmithxyz" target="_blank" rel="noopener" class="body-link">YouTube</a> | 
+      <a href="https://videos.lukesmith.xyz/" target="_blank" rel="noopener" class="body-link">PeerTube</a> | 
+        <a href="https://lukesmith.xyz/" target="_blank" rel="noopener" class="body-link">Website</a> | 
+        <a href="https://github.com/lukesmithxyz" target="_blank" rel="noopener" class="body-link">GitHub</a> ]
+        </span>
+        <p>Based Christian Orthodox priest, known for ranting in the woods, using Vim, and helping popularize Linux by using funny images of based frogs.</p>
+        </p> 
       ]]>
     </content>
   </entry>
