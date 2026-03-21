@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+<title>Based Academy</title>
+<link href="https://based.academy/" />
+<link href="https://based.academy/atom.xml" rel="self" />
+<updated>2026-03-21T16:08:00Z</updated>
+<id>https://based.academy/</id>
+<author>
+<name>Based Academy</name>
+<email>christian@bcionescu.com</email>
+</author>
+
+</feed>
