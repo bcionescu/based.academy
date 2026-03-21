@@ -40,6 +40,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+img.icon {
+  vertical-align: middle;
+}
+
 .bottom-links-container {
     display: flex;
     justify-content: space-between;
