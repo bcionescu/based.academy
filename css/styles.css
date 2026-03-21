@@ -41,7 +41,7 @@ body::-webkit-scrollbar {
 }
 
 img.icon {
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 .bottom-links-container {
