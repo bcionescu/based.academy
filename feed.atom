@@ -19,10 +19,10 @@
 
     <content type="html">
       <![CDATA[
-			<a href="https://youtube.com/sylvanfranklin/" target="_blank" rel="noopener" class="body-link"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
-			<a href="https://sylvanfranklin.com/" target="_blank" rel="noopener" class="body-link"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
-			<a href="https://x.com/SylvanFranklin_" target="_blank" rel="noopener" class="body-link"><img src="/assets/x-twitter.svg" width="24" height="24" alt="X" class="icon"></a>
-			<a href="https://github.com/sylvanfranklin" target="_blank" rel="noopener" class="body-link"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <a href="https://youtube.com/sylvanfranklin/" target="_blank" rel="noopener" class="body-link"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://sylvanfranklin.com/" target="_blank" rel="noopener" class="body-link"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://x.com/SylvanFranklin_" target="_blank" rel="noopener" class="body-link"><img src="/assets/x-twitter.svg" width="24" height="24" alt="X" class="icon"></a>
+        <a href="https://github.com/sylvanfranklin" target="_blank" rel="noopener" class="body-link"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
 
         <p>Vimothée Chalamet, the Lisan al-Gaib of the Vim world. Known for doing five internships at once, reading Dune in a mental institution, and <a href="https://www.youtube.com/watch?v=Nz5a6zV6zQQ" target="_blank" rel="noopener" class="body-link">rizzing up a Greek girl while teaching her how to use Vim.</a></p>
       ]]>
@@ -37,14 +37,12 @@
 
     <content type="html">
       <![CDATA[
-        <span> [
-        <a href="https://www.youtube.com/@LukeSmithxyz" target="_blank" rel="noopener" class="body-link">YouTube</a> | 
-      <a href="https://videos.lukesmith.xyz/" target="_blank" rel="noopener" class="body-link">PeerTube</a> | 
-        <a href="https://lukesmith.xyz/" target="_blank" rel="noopener" class="body-link">Website</a> | 
-        <a href="https://github.com/lukesmithxyz" target="_blank" rel="noopener" class="body-link">GitHub</a> ]
-        </span>
-        <p>Based Christian Orthodox priest, known for ranting in the woods, using Vim, and helping popularize Linux by using funny images of based frogs.</p>
-        </p> 
+        <a href="https://www.youtube.com/@LukeSmithxyz" target="_blank" rel="noopener" class="body-link"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://videos.lukesmith.xyz/" target="_blank" rel="noopener" class="body-link"><img src="/assets/play.svg" width="24" height="24" alt="PeerTube" class="icon"></a>
+        <a href="https://lukesmith.xyz/" target="_blank" rel="noopener" class="body-link"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://github.com/lukesmithxyz" target="_blank" rel="noopener" class="body-link"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+
+        <p>Based Christian Orthodox priest, known for ranting in the woods, using Vim, and helping popularize Linux by using funny images of based frogs. He also has an <a href="https://www.youtube.com/watch?v=9lDTdLQnSQo&list=PL-p5XmQHB_JQTeUxtGBI7sHCOOuY4qT-B&index=2&pp=iAQB" target="_blank" rel="noopener" class="body-link">obscure podcast</a> that a couple of people listen to.</p>
       ]]>
     </content>
   </entry>
