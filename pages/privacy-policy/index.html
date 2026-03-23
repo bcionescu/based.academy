@@ -27,19 +27,19 @@
 
 </div>
 
-	<footer id="footer"></footer>
+	<footer id="footer">
 
-	<script>
-		document.addEventListener("DOMContentLoaded", function () {
-			fetch('/templates/header.html')
-				.then(response => response.text())
-				.then(data => document.getElementById('header').innerHTML = data);
+    <p class="center">
+        <a href="/feed.atom" class="body-link">RSS</a>
+        - 
+        <a href="/pages/privacy-policy" class="body-link">Privacy Policy</a>
 
-			fetch('/templates/footer.html')
-				.then(response => response.text())
-				.then(data => document.getElementById('footer').innerHTML = data);
-		});
-	</script>
+        <br><br>
+
+        <a href="https://github.com/bcionescu/based.academy" target="_blank" rel="noopener" class="body-link"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon" align="top"> Based Academy 2026</a>
+    </p>
+
+  </footer>
 
 </body>
 
