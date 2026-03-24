@@ -2,7 +2,7 @@
 title: "DHH"
 new: false
 weight: 10
-date: 2026-03-21
+date: 2026-03-21T00:10:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube
     url: "https://www.youtube.com/@dhh37"

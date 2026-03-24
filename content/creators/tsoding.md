@@ -2,7 +2,7 @@
 title: "Тsфdiиg"
 new: true
 weight: 7
-date: 2026-03-21
+date: 2026-03-21T00:07:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube
     url: "https://www.youtube.com/tsoding"

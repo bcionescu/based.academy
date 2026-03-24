@@ -2,7 +2,7 @@
 title: "Luke Smith"
 new: false
 weight: 2
-date: 2026-03-21
+date: 2026-03-21T00:02:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube
     url: "https://www.youtube.com/@LukeSmithxyz"

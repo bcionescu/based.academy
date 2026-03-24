@@ -4,6 +4,8 @@
   <title>{{ site.Title }}</title>
   <subtitle>{{ site.Params.description }}</subtitle>
   <link href="{{ site.BaseURL }}" />
+  <!-- W3C Feed Validator flags SelfDoesntMatchLocation when validating raw data locally.
+       This is a false positive — in production the self link matches the document URL. -->
   <link href="{{ site.BaseURL }}feed.atom" rel="self" />
   <id>{{ site.BaseURL }}</id>
   <updated>{{ now.Format site.Params.dateFormat }}</updated>
@@ -53,7 +55,7 @@
       {{ printf "<![CDATA[" | safeHTML }}
         {{ range .Params.socials }}
           {{- $icon := index $iconMap .platform }}
-        <a href="{{ .url }}" target="_blank" rel="noopener"><img src="/assets/{{ $icon }}" width="24" height="24" alt="{{ .label }}" class="icon"></a>
+        <a href="{{ .url }}" target="_blank" rel="noopener"><img src="{{ site.BaseURL }}assets/{{ $icon }}" width="24" height="24" alt="{{ .label }}" class="icon"></a>
         {{ end }}
 
         {{ .Content }}

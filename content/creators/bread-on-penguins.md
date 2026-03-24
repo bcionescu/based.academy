@@ -2,7 +2,7 @@
 title: "Bread on Penguins"
 new: false
 weight: 6
-date: 2026-03-21
+date: 2026-03-21T00:06:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube
     url: "https://www.youtube.com/@BreadOnPenguins"

@@ -1,4 +1,7 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<!-- W3C Feed Validator recommends <atom:link rel="self"> here (MissingAtomSelfLink).
+     Intentionally omitted: atom:link is Atom-specific syntax that breaks compatibility
+     with older RSS-only readers. -->
 <rss version="2.0">
   <channel>
     <title>{{ site.Title }}</title>
@@ -6,6 +9,9 @@
     <description>{{ site.Params.description }}</description>
     <language>{{ site.Language.Locale }}</language>
     <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    {{ with site.Params.author }}
+    <managingEditor>{{ .email }} ({{ .name }})</managingEditor>
+    {{ end }}
 
     {{- $iconMap := dict
       "youtube" "youtube.svg"
@@ -42,7 +48,7 @@
         {{ printf "<![CDATA[" | safeHTML }}
           {{ range .Params.socials }}
             {{- $icon := index $iconMap .platform }}
-          <a href="{{ .url }}" target="_blank" rel="noopener"><img src="/assets/{{ $icon }}" width="24" height="24" alt="{{ .label }}" class="icon"></a>
+          <a href="{{ .url }}" target="_blank" rel="noopener"><img src="{{ site.BaseURL }}assets/{{ $icon }}" width="24" height="24" alt="{{ .label }}" class="icon"></a>
           {{ end }}
 
           {{ .Content }}
