@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <div class="container">
+    {{ .Content }}
+    <br/>
+
+    {{ $creators := where site.RegularPages "Section" "creators" }}
+    {{ range $creators.ByWeight }}
+      {{ partial "creator-card.html" . }}
+      <div style="height: 0.1em;"></div>
+    {{ end }}
+
+    <br/>
+  </div>
+{{ end }}

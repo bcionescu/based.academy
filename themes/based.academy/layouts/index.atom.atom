@@ -1,0 +1,65 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>{{ site.Title }}</title>
+  <subtitle>{{ site.Params.description }}</subtitle>
+  <link href="{{ site.BaseURL }}" />
+  <link href="{{ site.BaseURL }}feed.atom" rel="self" />
+  <id>{{ site.BaseURL }}</id>
+  <updated>{{ now.Format site.Params.dateFormat }}</updated>
+  <generator uri="https://gohugo.io/" version="{{ hugo.Version }}">Hugo</generator>
+  {{ with site.Params.author }}
+  <author>
+    <name>{{ .name }}</name>
+    {{ with .email }}<email>{{ . }}</email>{{ end }}
+  </author>
+  {{ end }}
+  <rights>Copyright {{ now.Year }}, {{ site.Title }}</rights>
+
+  {{- $iconMap := dict
+    "youtube" "youtube.svg"
+    "github" "github.svg"
+    "website" "globe.svg"
+    "x" "x-twitter.svg"
+    "substack" "bookmark.svg"
+    "peertube" "play.svg"
+    "books" "book-bookmark.svg"
+    "spotify" "spotify.svg"
+    "podcast" "podcast.svg"
+    "pocketcasts" "broadcast-tower.svg"
+    "bandcamp" "bandcamp.svg"
+    "patreon" "patreon.svg"
+    "twitch" "twitch.svg"
+    "bluesky" "bluesky.svg"
+    "mastodon" "mastodon.svg"
+    "odysee" "odysee.svg"
+    "hey" "hands.svg"
+    "instagram" "instagram.svg"
+    "email" "envelope.svg"
+    "wikipedia" "wikipedia-w.svg"
+    "tiktok" "tiktok.svg"
+  -}}
+
+  {{ $host := (urls.Parse site.BaseURL).Host }}
+  {{ $pages := where site.RegularPages "Section" "in" site.Params.mainSections }}
+  {{ range $pages.ByWeight }}
+  <entry>
+    <title>{{ .Title }}</title>
+    <link href="{{ site.BaseURL }}"/>
+    <id>tag:{{ $host }},{{ .Date.Format "2006-01-02" }}:{{ .File.ContentBaseName }}</id>
+    <updated>{{ .Date.Format $.Site.Params.dateFormat }}</updated>
+    {{ with .Description }}<summary>{{ . }}</summary>{{ end }}
+    <content type="html">
+      {{ printf "<![CDATA[" | safeHTML }}
+        {{ range .Params.socials }}
+          {{- $icon := index $iconMap .platform }}
+        <a href="{{ .url }}" target="_blank" rel="noopener"><img src="/assets/{{ $icon }}" width="24" height="24" alt="{{ .label }}" class="icon"></a>
+        {{ end }}
+
+        {{ .Content }}
+      {{ printf "]]>" | safeHTML }}
+    </content>
+  </entry>
+  {{ end }}
+
+</feed>

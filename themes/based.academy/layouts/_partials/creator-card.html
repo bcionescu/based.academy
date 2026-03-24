@@ -1,0 +1,32 @@
+{{- $iconMap := dict
+  "youtube" "youtube.svg"
+  "github" "github.svg"
+  "website" "globe.svg"
+  "x" "x-twitter.svg"
+  "substack" "bookmark.svg"
+  "peertube" "play.svg"
+  "books" "book-bookmark.svg"
+  "spotify" "spotify.svg"
+  "podcast" "podcast.svg"
+  "pocketcasts" "broadcast-tower.svg"
+  "bandcamp" "bandcamp.svg"
+  "patreon" "patreon.svg"
+  "twitch" "twitch.svg"
+  "bluesky" "bluesky.svg"
+  "mastodon" "mastodon.svg"
+  "odysee" "odysee.svg"
+  "hey" "hands.svg"
+  "instagram" "instagram.svg"
+  "email" "envelope.svg"
+  "wikipedia" "wikipedia-w.svg"
+  "tiktok" "tiktok.svg"
+-}}
+
+<h3>{{ .Title }}{{ if .Params.new }} <img src="https://img.shields.io/badge/NEW!-FE2C3E" width="44" height="24" alt="New Label" class="icon">{{ end }}</h3>
+<h3> [
+  {{- range .Params.socials }}
+    {{- $icon := index $iconMap .platform }}
+  <a href="{{ .url }}" target="_blank" rel="noopener"><img src="/assets/{{ $icon }}" width="24" height="24" alt="{{ .label }}" class="icon"></a>
+  {{- end }}
+  ]</h3>
+{{ .Content }}

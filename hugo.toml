@@ -1,0 +1,47 @@
+baseURL = 'https://based.academy/'
+locale = 'en-us'
+title = 'Based Academy'
+theme = 'based.academy'
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "An independent directory of like-minded content creators."
+  mainSections = ["creators"]
+  dateFormat = "2006-01-02T15:04:05-07:00"
+
+  [params.author]
+    name = "Based Academy"
+    email = "christian@bcionescu.com"
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'FAQ'
+    pageRef = '/pages/faq'
+    weight = 20
+
+[mediaTypes]
+  [mediaTypes."application/atom+xml"]
+    suffixes = ["atom"]
+  [mediaTypes."application/rss+xml"]
+    suffixes = ["rss"]
+
+[outputFormats]
+  [outputFormats.Atom]
+    baseName = "feed"
+    mediaType = "application/atom+xml"
+  [outputFormats.RSS]
+    baseName = "feed"
+    mediaType = "application/rss+xml"
+
+[outputs]
+  home = ["HTML", "Atom", "RSS"]
+  section = ["HTML"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

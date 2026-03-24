@@ -1,0 +1,6 @@
+{{ with .OutputFormats.Get "Atom" }}
+  <link rel="{{ .Rel }}" type="{{ .MediaType }}" title="Directory Feed (Atom)" href="{{ .Permalink }}" />
+{{ end }}
+{{ with .OutputFormats.Get "RSS" }}
+  <link rel="{{ .Rel }}" type="{{ .MediaType }}" title="Directory Feed (RSS)" href="{{ .Permalink }}" />
+{{ end }}

@@ -1,0 +1,4 @@
+<a href="{{ .Destination | safeURL }}"
+  {{- if or (strings.HasPrefix .Destination "http") (strings.HasPrefix .Destination "mailto:") }} target="_blank" rel="noopener"{{ end }}
+  class="body-link"
+>{{ .Text }}</a>

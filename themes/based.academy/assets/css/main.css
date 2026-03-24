@@ -1,12 +1,12 @@
 /*!
- * Project Name (https://based.academy)
- * Copyright 2026 Cristian Ionescu 
+ * Based Academy (https://based.academy)
+ * Copyright 2026 Cristian Ionescu
  * Licensed under MIT (https://github.com/bcionescu/based.academy/blob/main/LICENSE)
  */
 
 @font-face {
 	font-family: 'iAWriterMono';
-	src: url('../fonts/iAWriterMonoS-Regular.woff2') format('woff2');
+	src: url('/fonts/iAWriterMonoS-Regular.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -14,7 +14,7 @@
 
 @font-face {
 	font-family: 'iAWriterMono';
-	src: url('../fonts/iAWriterMonoS-Bold.woff2') format('woff2');
+	src: url('/fonts/iAWriterMonoS-Bold.woff2') format('woff2');
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
@@ -22,7 +22,7 @@
 
 @font-face {
 	font-family: 'iAWriterMono';
-	src: url('../fonts/iAWriterMonoS-Italic.woff2') format('woff2');
+	src: url('/fonts/iAWriterMonoS-Italic.woff2') format('woff2');
 	font-weight: normal;
 	font-style: italic;
 	font-display: swap;

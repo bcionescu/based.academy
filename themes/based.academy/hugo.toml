@@ -1,0 +1,8 @@
+baseURL = 'https://based.academy/'
+locale = 'en-us'
+title = 'Based Academy'
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.146.0'

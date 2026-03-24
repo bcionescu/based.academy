@@ -1,0 +1,55 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<rss version="2.0">
+  <channel>
+    <title>{{ site.Title }}</title>
+    <link>{{ site.BaseURL }}</link>
+    <description>{{ site.Params.description }}</description>
+    <language>{{ site.Language.Locale }}</language>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+
+    {{- $iconMap := dict
+      "youtube" "youtube.svg"
+      "github" "github.svg"
+      "website" "globe.svg"
+      "x" "x-twitter.svg"
+      "substack" "bookmark.svg"
+      "peertube" "play.svg"
+      "books" "book-bookmark.svg"
+      "spotify" "spotify.svg"
+      "podcast" "podcast.svg"
+      "pocketcasts" "broadcast-tower.svg"
+      "bandcamp" "bandcamp.svg"
+      "patreon" "patreon.svg"
+      "twitch" "twitch.svg"
+      "bluesky" "bluesky.svg"
+      "mastodon" "mastodon.svg"
+      "odysee" "odysee.svg"
+      "hey" "hands.svg"
+      "instagram" "instagram.svg"
+      "email" "envelope.svg"
+      "wikipedia" "wikipedia-w.svg"
+      "tiktok" "tiktok.svg"
+    -}}
+
+    {{ $pages := where site.RegularPages "Section" "in" site.Params.mainSections }}
+    {{ range $pages.ByWeight }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ site.BaseURL }}</link>
+      <guid>{{ site.BaseURL }}#{{ .File.ContentBaseName }}</guid>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <description>
+        {{ printf "<![CDATA[" | safeHTML }}
+          {{ range .Params.socials }}
+            {{- $icon := index $iconMap .platform }}
+          <a href="{{ .url }}" target="_blank" rel="noopener"><img src="/assets/{{ $icon }}" width="24" height="24" alt="{{ .label }}" class="icon"></a>
+          {{ end }}
+
+          {{ .Content }}
+        {{ printf "]]>" | safeHTML }}
+      </description>
+    </item>
+    {{ end }}
+
+  </channel>
+</rss>
