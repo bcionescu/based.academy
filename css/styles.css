@@ -56,7 +56,6 @@ body::-webkit-scrollbar {
   
   border-radius: 50px;
   
-  font-weight: bold;
   font-size: 14px;
 }
 
@@ -70,19 +69,6 @@ body::-webkit-scrollbar {
 
   display: block;
   width: auto;
-}
-
-.name-container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: auto;
-  margin-bottom: -23px;
-
-}
-
-.date-added {
-  transform: translateY(-2px); 
 }
 
 img.icon {
