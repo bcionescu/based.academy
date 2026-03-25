@@ -51,13 +51,25 @@ body::-webkit-scrollbar {
   padding: 8px 20px;
   
   color: #fd9e22;
-  border: 2px solid #fd9e22;
-  background-color: transparent; /* Ensures it's not filled */
+  border: 1px solid #fd9e22;
+  background-color: transparent;
   
-  border-radius: 50px; /* High value creates the pill shape */
+  border-radius: 50px;
   
   font-weight: bold;
   font-size: 14px;
+}
+
+.bordered-paragraph {
+  border: 1px solid #fd9e22;
+  background-color: transparent;
+
+  border-radius: 12px;
+  padding: 15px 30px;
+  margin: 10px 0;
+
+  display: block;
+  width: auto;
 }
 
 img.icon {
