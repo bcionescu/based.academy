@@ -59,6 +59,12 @@ body::-webkit-scrollbar {
   font-size: 14px;
 }
 
+.label-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .bordered-paragraph {
   border: 1px solid #fd9e22;
   background-color: transparent;
