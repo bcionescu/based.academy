@@ -2,7 +2,8 @@
 title: "beenovella707"
 new: false
 weight: 4
-category: "Technology"
+categories:
+  - "Technology"
 date: 2026-03-23T00:01:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube

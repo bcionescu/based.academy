@@ -2,7 +2,8 @@
 title: "The Primeagen"
 new: false
 weight: 14
-category: "Programming"
+categories:
+  - "Programming"
 date: 2026-03-21T00:05:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube

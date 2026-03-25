@@ -2,7 +2,9 @@
 title: "Nathan Laundry"
 new: true
 weight: 5
-category: "Technology"
+categories:
+  - "Technology"
+  - "Philosophy"
 date: 2026-03-25T00:01:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube

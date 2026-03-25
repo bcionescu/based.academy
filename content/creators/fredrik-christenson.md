@@ -2,7 +2,8 @@
 title: "Fredrik Christenson"
 new: true
 weight: 6
-category: "Programming"
+categories:
+  - "Programming"
 date: 2026-03-24T00:01:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube

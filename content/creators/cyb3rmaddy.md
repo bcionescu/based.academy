@@ -2,7 +2,8 @@
 title: "Cyb3rMaddy"
 new: true
 weight: 10
-category: "Cybersecurity"
+categories:
+  - "Cybersecurity"
 date: 2026-03-25T00:03:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube

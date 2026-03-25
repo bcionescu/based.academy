@@ -2,7 +2,8 @@
 title: "Level1Links with Friends"
 new: true
 weight: 15
-category: "Technology"
+categories:
+  - "Technology"
 date: 2026-03-24T00:03:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube

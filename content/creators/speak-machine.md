@@ -2,7 +2,9 @@
 title: "Speak, Machine"
 new: false
 weight: 3
-category: "Technology"
+categories:
+  - "Technology"
+  - "Philosophy"
 date: 2026-03-21T00:03:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube

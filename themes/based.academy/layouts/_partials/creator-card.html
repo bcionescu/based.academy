@@ -26,7 +26,10 @@
 -}}
 
 <span class="bordered-paragraph">
-  <h3>{{ .Title }}{{ if .Params.new }} <img src="https://img.shields.io/badge/NEW!-FE2C3E" width="44" height="24" alt="New Label" class="icon">{{ end }}</h3>
+  <div class="name-container">
+    <span><h3>{{ .Title }}{{ if .Params.new }} <img src="https://img.shields.io/badge/NEW!-FE2C3E" width="44" height="24" alt="New Label" class="icon">{{ end }}</h3></span>
+    <span class="date-added">Added {{ .Date.Format "Jan 2 2006" }}</span>
+  </div>
   <h3> [
     {{- range .Params.socials }}
       {{- $icon := index $iconMap .platform }}
@@ -34,7 +37,7 @@
     {{- end }}
     ]</h3>
   {{ .Content }}
-  <span class="custom-label">Added {{ .Date.Format "Jan 2 2006" }}</span>
-  {{ with .Params.category }}<span class="custom-label">{{ . }}</span>{{ end }}
+  {{ range .Params.categories }}<span class="custom-label">{{ . }}</span>
+  {{ end }}
   <p></p>
 </span>

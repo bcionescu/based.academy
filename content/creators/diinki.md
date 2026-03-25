@@ -2,7 +2,8 @@
 title: "diinki"
 new: true
 weight: 7
-category: "Technology"
+categories:
+  - "Technology"
 date: 2026-03-25T00:02:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube

@@ -2,7 +2,8 @@
 title: "Mental Outlaw"
 new: false
 weight: 12
-category: "Technology"
+categories:
+  - "Technology"
 date: 2026-03-21T00:04:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube
