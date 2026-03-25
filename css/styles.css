@@ -46,6 +46,20 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.custom-label {
+  display: inline-block;
+  padding: 8px 20px;
+  
+  color: #fd9e22;
+  border: 2px solid #fd9e22;
+  background-color: transparent; /* Ensures it's not filled */
+  
+  border-radius: 50px; /* High value creates the pill shape */
+  
+  font-weight: bold;
+  font-size: 14px;
+}
+
 img.icon {
   vertical-align: bottom;
 }
