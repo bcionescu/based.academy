@@ -65,11 +65,24 @@ body::-webkit-scrollbar {
   background-color: transparent;
 
   border-radius: 12px;
-  padding: 15px 30px;
+  padding: 10px 30px;
   margin: 10px 0;
 
   display: block;
   width: auto;
+}
+
+.name-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin-bottom: -23px;
+
+}
+
+.date-added {
+  transform: translateY(-2px); 
 }
 
 img.icon {
