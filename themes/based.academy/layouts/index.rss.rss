@@ -35,6 +35,9 @@
       "email" "envelope.svg"
       "wikipedia" "wikipedia-w.svg"
       "tiktok" "tiktok.svg"
+      "kofi" "ko-fi.svg"
+      "linktree" "linktree.svg"
+      "discord" "discord.svg"
     -}}
 
     {{ $pages := where site.RegularPages "Section" "in" site.Params.mainSections }}

@@ -1,8 +1,9 @@
 ---
 title: "Level1Links with Friends"
 new: true
-weight: 12
-date: 2026-03-24
+weight: 15
+category: "Technology"
+date: 2026-03-24T00:03:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube
     url: "https://www.youtube.com/@Level1LinksWithFriends"

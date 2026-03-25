@@ -1,8 +1,9 @@
 ---
 title: "Mental Outlaw"
 new: false
-weight: 9
-date: 2026-03-21T00:09:00Z # Each creator needs a unique time so feed readers can distinguish entries
+weight: 12
+category: "Technology"
+date: 2026-03-21T00:04:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube
     url: "https://www.youtube.com/@MentalOutlaw"

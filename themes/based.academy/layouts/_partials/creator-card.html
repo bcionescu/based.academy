@@ -20,13 +20,21 @@
   "email" "envelope.svg"
   "wikipedia" "wikipedia-w.svg"
   "tiktok" "tiktok.svg"
+  "kofi" "ko-fi.svg"
+  "linktree" "linktree.svg"
+  "discord" "discord.svg"
 -}}
 
-<h3>{{ .Title }}{{ if .Params.new }} <img src="https://img.shields.io/badge/NEW!-FE2C3E" width="44" height="24" alt="New Label" class="icon">{{ end }}</h3>
-<h3> [
-  {{- range .Params.socials }}
-    {{- $icon := index $iconMap .platform }}
-  <a href="{{ .url }}" target="_blank" rel="noopener"><img src="/assets/{{ $icon }}" width="24" height="24" alt="{{ .label }}" class="icon"></a>
-  {{- end }}
-  ]</h3>
-{{ .Content }}
+<span class="bordered-paragraph">
+  <h3>{{ .Title }}{{ if .Params.new }} <img src="https://img.shields.io/badge/NEW!-FE2C3E" width="44" height="24" alt="New Label" class="icon">{{ end }}</h3>
+  <h3> [
+    {{- range .Params.socials }}
+      {{- $icon := index $iconMap .platform }}
+    <a href="{{ .url }}" target="_blank" rel="noopener"><img src="/assets/{{ $icon }}" width="24" height="24" alt="{{ .label }}" class="icon"></a>
+    {{- end }}
+    ]</h3>
+  {{ .Content }}
+  <span class="custom-label">Added {{ .Date.Format "Jan 2 2006" }}</span>
+  {{ with .Params.category }}<span class="custom-label">{{ . }}</span>{{ end }}
+  <p></p>
+</span>

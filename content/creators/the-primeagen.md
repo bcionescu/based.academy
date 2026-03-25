@@ -1,8 +1,9 @@
 ---
 title: "The Primeagen"
 new: false
-weight: 11
-date: 2026-03-21T00:11:00Z # Each creator needs a unique time so feed readers can distinguish entries
+weight: 14
+category: "Programming"
+date: 2026-03-21T00:05:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube
     url: "https://www.youtube.com/@ThePrimeTimeagen"

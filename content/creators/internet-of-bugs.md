@@ -1,8 +1,9 @@
 ---
 title: "Internet of Bugs"
 new: false
-weight: 8
-date: 2026-03-21T00:08:00Z # Each creator needs a unique time so feed readers can distinguish entries
+weight: 11
+category: "Technology"
+date: 2026-03-22T00:01:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube
     url: "https://www.youtube.com/@InternetOfBugs"

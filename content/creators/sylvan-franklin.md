@@ -2,6 +2,7 @@
 title: "Sylvan Franklin"
 new: false
 weight: 1
+category: "Technology"
 date: 2026-03-21T00:01:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube

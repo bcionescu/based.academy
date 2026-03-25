@@ -1,8 +1,9 @@
 ---
 title: "Fredrik Christenson"
 new: true
-weight: 5
-date: 2026-03-21T00:05:00Z # Each creator needs a unique time so feed readers can distinguish entries
+weight: 6
+category: "Programming"
+date: 2026-03-24T00:01:00Z # Each creator needs a unique time so feed readers can distinguish entries
 socials:
   - platform: youtube
     url: "https://www.youtube.com/@FredrikChristenson"
