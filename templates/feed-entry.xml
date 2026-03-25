@@ -1,0 +1,17 @@
+
+  <entry>
+    <title>$name$</title>
+    <link href="https://based.academy/"/>
+    <id>$name$</id>
+    <updated>$date_iso$</updated>
+
+    <content type="html">
+      <![CDATA[
+$for(socials)$
+        <a href="$it.url$" target="_blank" rel="noopener"><img src="$it.icon$" width="24" height="24" alt="$it.label$" class="icon"></a>
+$endfor$
+
+        $body$
+      ]]>
+    </content>
+  </entry>

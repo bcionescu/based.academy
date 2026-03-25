@@ -1,0 +1,5 @@
+content/
+templates/
+build/
+Makefile
+.githooks/

@@ -1,0 +1,37 @@
+---
+name: "DHH"
+date_added: "Mar 23 2026"
+date_iso: "2026-03-23T12:00:00Z"
+new: false
+socials:
+  - label: "YouTube"
+    url: "https://www.youtube.com/@dhh37"
+    icon: "/assets/youtube.svg"
+  - label: "HEY"
+    url: "https://world.hey.com/dhh"
+    icon: "/assets/hands.svg"
+  - label: "Website"
+    url: "https://dhh.dk/"
+    icon: "/assets/globe.svg"
+  - label: "GitHub"
+    url: "https://github.com/DHH"
+    icon: "/assets/github.svg"
+  - label: "The REWORK Podcast"
+    url: "https://37signals.com/podcast/"
+    icon: "/assets/podcast.svg"
+  - label: "Twitter"
+    url: "https://x.com/dhh"
+    icon: "/assets/x-twitter.svg"
+  - label: "Instagram"
+    url: "https://www.instagram.com/dhhdrives/"
+    icon: "/assets/instagram.svg"
+  - label: "Email"
+    url: "mailto:dhh@hey.com"
+    icon: "/assets/envelope.svg"
+  - label: "Wikipedia"
+    url: "https://en.wikipedia.org/wiki/David_Heinemeier_Hansson"
+    icon: "/assets/wikipedia-w.svg"
+tags:
+  - "Programming"
+---
+David Heinemeier Hansson (clearly a misspelling of Handsome) is known for making racing cars go vroom, getting into trouble on X, and creating a little-known <a href="https://rubyonrails.org/" target="_blank" rel="noopener" class="body-link">Ruby blog framework</a>.

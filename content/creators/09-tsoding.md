@@ -1,0 +1,37 @@
+---
+name: "Тsфdiиg"
+date_added: "Mar 24 2026"
+date_iso: "2026-03-24T11:00:00Z"
+new: true
+socials:
+  - label: "YouTube"
+    url: "https://www.youtube.com/tsoding"
+    icon: "/assets/youtube.svg"
+  - label: "YouTube"
+    url: "https://www.youtube.com/@TsodingDaily"
+    icon: "/assets/youtube.svg"
+  - label: "Website"
+    url: "https://tsoding.github.io/"
+    icon: "/assets/globe.svg"
+  - label: "Twitch"
+    url: "https://www.twitch.tv/tsoding"
+    icon: "/assets/twitch.svg"
+  - label: "GitHub"
+    url: "https://github.com/tsoding"
+    icon: "/assets/github.svg"
+  - label: "GitHub"
+    url: "https://github.com/rexim"
+    icon: "/assets/github.svg"
+  - label: "Twitter"
+    url: "https://x.com/tsoding"
+    icon: "/assets/x-twitter.svg"
+  - label: "Bluesky"
+    url: "https://bsky.app/profile/tsoding.bsky.social"
+    icon: "/assets/bluesky.svg"
+  - label: "Patreon"
+    url: "https://www.patreon.com/tsoding"
+    icon: "/assets/patreon.svg"
+tags:
+  - "Programming"
+---
+Recreational programmer. Known for being an evil Emacs user, but he also uses Vim, so he's ok.

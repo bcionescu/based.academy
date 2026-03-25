@@ -1,0 +1,22 @@
+$if(spacer)$
+        <div style="height: 0.1em;"></div>
+$endif$
+        <span class="bordered-paragraph">
+
+        <div class="name-container">
+        <span><h3>$name$$if(new)$ <img src="https://img.shields.io/badge/NEW!-FE2C3E" width="44" height="24" alt="New Label" class="icon">$endif$</h3></span>
+        <span class="date-added">Added $date_added$</span>
+        </div>
+
+        <h3> [
+$for(socials)$
+        <a href="$it.url$" target="_blank" rel="noopener"><img src="$it.icon$" width="24" height="24" alt="$it.label$" class="icon"></a>
+$endfor$
+        ]</h3>
+        $body$
+
+$for(tags)$
+        <span class="custom-label">$it$</span>
+$endfor$
+        <p></p>
+        </span>
