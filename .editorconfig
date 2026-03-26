@@ -1,0 +1,19 @@
+# EditorConfig — https://editorconfig.org/
+# Supported natively by Neovim (>= 0.9) and most editors.
+# Vim requires the editorconfig-vim plugin.
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Web files: 2-space indent with spaces.
+[*.{html,css,xml,atom,svg,json,md,lua}]
+indent_style = space
+indent_size = 2
+
+# Makefiles: tabs required by Make syntax.
+[Makefile]
+indent_style = tab
