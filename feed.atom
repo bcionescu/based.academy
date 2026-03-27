@@ -12,6 +12,24 @@
 </author>
 
   <entry>
+    <title>Mo Bitar</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-27:mo-bitar</id>
+    <updated>2026-03-27T22:00:00Z</updated>
+
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/@atmoio" target="_blank" rel="noopener"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://atmoio.substack.com/" target="_blank" rel="noopener"><img src="/assets/bookmark.svg" width="24" height="24" alt="Substack" class="icon"></a>
+        <a href="https://mo.io/" target="_blank" rel="noopener"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://x.com/atmoio" target="_blank" rel="noopener"><img src="/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
+        ]</h3>
+        <p>Mo is known for dunking on AI, having a magnificent beard, and being the <b>Omega</b>.</p>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
     <title>Sylvan Franklin</title>
     <link href="https://based.academy/"/>
     <id>tag:based.academy,2026-03-21:sylvan-franklin</id>
