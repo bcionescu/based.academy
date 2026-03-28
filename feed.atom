@@ -12,19 +12,6 @@
 </author>
 
   <entry>
-    <title>Name</title>
-    <link href="https://based.academy/"/>
-    <id>tag:based.academy,YYYY-MM-DD:slug</id>
-    <updated>2026-03-21T10:00:00Z</updated>
-
-    <content type="html">
-      <![CDATA[
-
-      ]]>
-    </content>
-  </entry>
-
-  <entry>
     <title>Mo Bitar</title>
     <link href="https://based.academy/"/>
     <id>tag:based.academy,2026-03-27:mo-bitar</id>
