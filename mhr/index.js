@@ -1,52 +1,58 @@
-import {parse, stringify} from 'smol-toml'
-import process from 'node:process'
-import fs from 'node:fs'
-import {ACTIONS, parseCommand} from './actions.js'
-import readline from 'readline-sync';
+import { parse, stringify } from "@iarna/toml";
+import process from "node:process";
+import fs from "node:fs";
+import { ACTIONS, parseCommand } from "./actions.js";
+import readline from "readline-sync";
 
-const cmdIns = parseCommand(process.argv)
+const cmdIns = parseCommand(process.argv);
 
-if(cmdIns === ACTIONS.ADD){
-  try { 
-  const configToml = fs.readFileSync('./config.toml', 'utf-8');
-  let parsedProperties = parse(configToml);
+function addBasedPerson(toml) {
+  let parsedProperties = parse(toml);
   console.log(parsedProperties);
-  
+
   console.log("Enter the name of the based human: ");
-  let name = readline.question()
-  console.log(name)
-  
-  parsedProperties[name] = {"name":name}
-  let serializedToml = stringify(parsedProperties); 
+  let name = readline.question();
+  console.log(name);
 
-  console.log(serializedToml)
-  fs.writeFileSync('./config.toml', serializedToml);
-  console.log("The based person is added to the toml file");
+  parsedProperties[name] = { name: name };
 
+  console.log("Enter a description of the based human: ");
+  let desc = readline.question();
+  console.log(desc);
+  parsedProperties[name].desc = desc;
+
+  parsedProperties[name].date = new Date().toLocaleString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+
+  let serializedToml = stringify(parsedProperties);
+  console.log(parsedProperties);
+  console.log(serializedToml);
+  return serializedToml;
+}
+
+if (cmdIns === ACTIONS.ADD) {
+  try {
+    const configToml = fs.readFileSync("./config.toml", "utf-8");
+    const serializedToml = addBasedPerson(configToml);
+    fs.writeFileSync("./config.toml", serializedToml);
+    console.log("The based person is added to the toml file");
   } catch (err) {
-    if(err.errno === -2){
-      console.log('creating the file config.toml');
-      fs.writeFileSync('./config.toml','');
-      const configToml = fs.readFileSync('./config.toml', 'utf-8');
-      let parsedProperties = parse(configToml);
-      console.log(parsedProperties);
-  
-      console.log("Enter the name of the based human: ");
-      let name = readline.question()
-      console.log(name)
-
-      parsedProperties[name] = {"name":name}
-      let serializedToml = stringify(parsedProperties); 
-
-      console.log(serializedToml)
-      fs.writeFileSync('./config.toml', serializedToml);
+    if (err.errno === -2) {
+      console.log("creating the file config.toml");
+      fs.writeFileSync("./config.toml", "");
+      const configToml = fs.readFileSync("./config.toml", "utf-8");
+      const serializedToml = addBasedPerson(configToml);
+      fs.writeFileSync("./config.toml", serializedToml);
       console.log("The based person is added to the toml file");
-    }else{
+    } else {
       console.log(err);
-    } 
+    }
   }
-}else if(cmdIns === ACTIONS.BUILD){
- const initialTemplate = `<!DOCTYPE html>
+} else if (cmdIns === ACTIONS.BUILD) {
+  const initialTemplate = `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -86,15 +92,16 @@ if(cmdIns === ACTIONS.ADD){
         <p>Welcome to the Based Academy, a place where you can learn from technically-minded content creators who value knowledge and independence.</p>
         <!-- <br> -->
         <p><img src="/assets/location-dot.svg" width="24" height="24" alt="Location Dot" class="icon" align="top"> The alive internet starts here.</p>
-        <br>`
-    const tomlFile = fs.readFileSync('./config.toml', 'utf-8');
-    const parsedProperties = parse(tomlFile);
+        <br>`;
+  const tomlFile = fs.readFileSync("./config.toml", "utf-8");
+  const parsedProperties = parse(tomlFile);
   const entries = Object.entries(parsedProperties);
-    let createdHtml = '';
-  console.log(parsedProperties)
-  for(let [name, _ ] of entries){ 
+  let createdHtml = "";
+  console.log(parsedProperties);
+  for (let [name, props] of entries) {
+    console.log(props);
     let noDiv = false;
-    if(entries[0][1] !== name){
+    if (entries[0][1] !== name) {
       createdHtml += `<div style="height: 0.1em;"></div>`;
     }
     createdHtml += `\n
@@ -117,13 +124,13 @@ if(cmdIns === ACTIONS.ADD){
         <a href="" target="_blank" rel="noopener"><img src="/assets/spotify.svg" width="24" height="24" alt="Spotify" class="icon"></a>   
         <a href="" target="_blank" rel="noopener"><img src="/assets/podcast.svg" width="24" height="24" alt="Apple Podcast" class="icon"></a>
     ]</h3>
-    <p>Description</p>
+    <p>${props.desc} </p>
     <div class="label-container">
-        <span class="custom-label">Added ${new Date().toLocaleString('en-US',{month:'short', day:'numeric', year:'numeric'})}</span>
+        <span class="custom-label">Added ${props?.date}</span>
         <span class="custom-label">Programming</span>
     </div>
     <p></p>
-</span>`
+</span>`;
   }
   let endingTemplate = `
         <br> 
@@ -146,7 +153,7 @@ if(cmdIns === ACTIONS.ADD){
 
 </body>
 
-</html>`
+</html>`;
   const finalTemplate = initialTemplate + createdHtml + endingTemplate;
-  fs.writeFileSync('./../index.html', finalTemplate);
+  fs.writeFileSync("./../index.html", finalTemplate);
 }

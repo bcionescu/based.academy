@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "readline-sync": "^1.4.10",
-    "smol-toml": "^1.6.1"
+    "@iarna/toml": "^2.2.5",
+    "readline-sync": "^1.4.10"
   }
 }
