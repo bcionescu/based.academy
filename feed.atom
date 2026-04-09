@@ -4,26 +4,43 @@
 <title>Based Academy</title>
 <link href="https://based.academy/" />
 <link href="https://based.academy/feed.atom" rel="self" />
-<updated>2026-03-21T19:53:00Z</updated>
+<updated>2026-03-25T12:00:00Z</updated>
 <id>https://based.academy/</id>
 <author>
-<name>Based Academy</name>
-<email>christian@bcionescu.com</email>
+  <name>Based Academy</name>
+  <email>christian@bcionescu.com</email>
 </author>
+
+  <entry>
+    <title>Mo Bitar</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-27:mo-bitar</id>
+    <updated>2026-03-27T22:00:00Z</updated>
+
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/@atmoio" target="_blank" rel="noopener"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://atmoio.substack.com/" target="_blank" rel="noopener"><img src="/assets/bookmark.svg" width="24" height="24" alt="Substack" class="icon"></a>
+        <a href="https://mo.io/" target="_blank" rel="noopener"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://x.com/atmoio" target="_blank" rel="noopener"><img src="/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
+        ]</h3>
+        <p>Mo is known for dunking on AI, having a magnificent beard, and being the <b>Omega</b>.</p>
+      ]]>
+    </content>
+  </entry>
 
   <entry>
     <title>Sylvan Franklin</title>
     <link href="https://based.academy/"/>
-    <id>Sylvan Franklin</id>
+    <id>tag:based.academy,2026-03-21:sylvan-franklin</id>
     <updated>2026-03-21T10:00:00Z</updated>
-
     <content type="html">
       <![CDATA[
-        <a href="https://youtube.com/sylvanfranklin/" target="_blank" rel="noopener"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
-        <a href="https://sylvanfranklin.com/" target="_blank" rel="noopener"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
-        <a href="https://x.com/SylvanFranklin_" target="_blank" rel="noopener"><img src="/assets/x-twitter.svg" width="24" height="24" alt="X" class="icon"></a>
-        <a href="https://github.com/sylvanfranklin" target="_blank" rel="noopener"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
-
+        <a href="https://youtube.com/sylvanfranklin/" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://substack.com/@vimothee" target="_blank" rel="noopener"><img src="https://based.academy/assets/bookmark.svg" width="24" height="24" alt="Substack" class="icon"></a>
+        <a href="https://sylvanfranklin.com/" target="_blank" rel="noopener"><img src="https://based.academy/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://x.com/SylvanFranklin_" target="_blank" rel="noopener"><img src="https://based.academy/assets/x-twitter.svg" width="24" height="24" alt="X" class="icon"></a>
+        <a href="https://github.com/sylvanfranklin" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
         <p>Vimothée Chalamet, the Lisan al-Gaib of the Vim world. Known for doing five internships at once, reading Dune in a mental institution, and <a href="https://www.youtube.com/watch?v=Nz5a6zV6zQQ" target="_blank" rel="noopener" class="body-link">rizzing up a Greek girl while teaching her how to use Vim.</a></p>
       ]]>
     </content>
@@ -32,17 +49,15 @@
   <entry>
     <title>Luke Smith</title>
     <link href="https://based.academy/"/>
-    <id>Luke Smith</id>
-    <updated>2026-03-21T10:00:00Z</updated>
-
+    <id>tag:based.academy,2026-03-21:luke-smith</id>
+    <updated>2026-03-21T11:00:00Z</updated>
     <content type="html">
       <![CDATA[
-        <a href="https://www.youtube.com/@LukeSmithxyz" target="_blank" rel="noopener"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
-        <a href="https://videos.lukesmith.xyz/" target="_blank" rel="noopener"><img src="/assets/play.svg" width="24" height="24" alt="PeerTube" class="icon"></a>
-        <a href="https://lukesmith.xyz/" target="_blank" rel="noopener"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
-        <a href="https://github.com/lukesmithxyz" target="_blank" rel="noopener"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
-
-        <p>Based Christian Orthodox priest, known for ranting in the woods, using Vim, and helping popularize Linux by using funny images of based frogs. He also has an <a href="https://www.youtube.com/watch?v=9lDTdLQnSQo&list=PL-p5XmQHB_JQTeUxtGBI7sHCOOuY4qT-B&index=2&pp=iAQB" target="_blank" rel="noopener" class="body-link">obscure podcast</a> that a couple of people listen to.</p>
+        <a href="https://www.youtube.com/@LukeSmithxyz" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://videos.lukesmith.xyz/" target="_blank" rel="noopener"><img src="https://based.academy/assets/play.svg" width="24" height="24" alt="PeerTube" class="icon"></a>
+        <a href="https://lukesmith.xyz/" target="_blank" rel="noopener"><img src="https://based.academy/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://github.com/lukesmithxyz" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <p>Based Christian Orthodox priest, known for ranting in the woods, using Vim, and helping popularize Linux by using funny images of based frogs. He also has an <a href="https://www.youtube.com/watch?v=9lDTdLQnSQo&amp;list=PL-p5XmQHB_JQTeUxtGBI7sHCOOuY4qT-B&amp;index=2&amp;pp=iAQB" target="_blank" rel="noopener" class="body-link">obscure podcast</a> that a couple of people listen to.</p>
       ]]>
     </content>
   </entry>
@@ -50,19 +65,210 @@
   <entry>
     <title>Speak, Machine</title>
     <link href="https://based.academy/"/>
-    <id>Speak, Machine</id>
-    <updated>2026-03-21T10:00:00Z</updated>
-
+    <id>tag:based.academy,2026-03-21:speak-machine</id>
+    <updated>2026-03-21T12:00:00Z</updated>
     <content type="html">
       <![CDATA[
-        <a href="https://youtube.com/@bcionescu" target="_blank" rel="noopener"><img src="/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
-        <a href="https://bcionescu.com" target="_blank" rel="noopener"><img src="/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
-        <a href="https://geni.us/basedbooks" target="_blank" rel="noopener"><img src="/assets/book-bookmark.svg" width="24" height="24" alt="Books" class="icon"></a>
-        <a href="https://x.com/bcionescu_" target="_blank" rel="noopener"><img src="/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
-        <a href="https://github.com/bcionescu" target="_blank" rel="noopener"><img src="/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
-
+        <a href="https://youtube.com/@bcionescu" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://bcionescu.com" target="_blank" rel="noopener"><img src="https://based.academy/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://geni.us/basedbooks" target="_blank" rel="noopener"><img src="https://based.academy/assets/book-bookmark.svg" width="24" height="24" alt="Books" class="icon"></a>
+        <a href="https://x.com/bcionescu_" target="_blank" rel="noopener"><img src="https://based.academy/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
+        <a href="https://github.com/bcionescu" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
         <p>A 33 yo white-haired boomer known for <a href="https://www.youtube.com/watch?v=1qgb8gbk9eo" target="_blank" rel="noopener" class="body-link">reading the Vim manual in its entirety on YouTube</a>, <a href="https://geni.us/basedbooks" target="_blank" rel="noopener" class="body-link">writing science fiction novels</a>, and occasionally making videos about computers, or ranting in the woods.</p>
-        </p>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>beenovella707</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-23:beenovella707</id>
+    <updated>2026-03-23T10:00:00Z</updated>
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/@beenovella707" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <p>A New Zeeland-based plant mom with a penchant for dumb phones, distrohopping on ThinkPads, and a healthy dislike for Spotify.</p>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Nathan Laundry</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-25:nathan-laundry</id>
+    <updated>2026-03-25T10:00:00Z</updated>
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/@nathanlaundry" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://nathanlaundry.substack.com/" target="_blank" rel="noopener"><img src="https://based.academy/assets/bookmark.svg" width="24" height="24" alt="Substack" class="icon"></a>
+        <a href="https://nathanlaundry.com/" target="_blank" rel="noopener"><img src="https://based.academy/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://github.com/NLaundry" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <p>A self-professed reformed productivity bro with a love for self-hosting, and a desire to escape the attention economy.</p>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Fredrik Christenson</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-24:fredrik-christenson</id>
+    <updated>2026-03-24T10:00:00Z</updated>
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/@FredrikChristenson" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://creators.spotify.com/pod/profile/fredrik-christenson/" target="_blank" rel="noopener"><img src="https://based.academy/assets/spotify.svg" width="24" height="24" alt="Spotify" class="icon"></a>
+        <a href="https://podcasts.apple.com/us/podcast/my-life-as-a-programmer/id1493164484" target="_blank" rel="noopener"><img src="https://based.academy/assets/podcast.svg" width="24" height="24" alt="Apple Podcast" class="icon"></a>
+        <a href="https://pocketcasts.com/podcast/my-life-as-a-programmer/2e1ab770-0d0d-0138-9f76-0acc26574db2" target="_blank" rel="noopener"><img src="https://based.academy/assets/broadcast-tower.svg" width="24" height="24" alt="Pocket Casts" class="icon"></a>
+        <p>Fredrik is known for ranting in the Swedish woods about the state of the software development industry. Also, he once said that he is bald.</p>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>diinki</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-25:diinki</id>
+    <updated>2026-03-25T11:00:00Z</updated>
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/@diinkikot" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://www.twitch.tv/diinkikot" target="_blank" rel="noopener"><img src="https://based.academy/assets/twitch.svg" width="24" height="24" alt="Twitch" class="icon"></a>
+        <a href="https://github.com/diinki" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <a href="https://www.tiktok.com/@diinkikot" target="_blank" rel="noopener"><img src="https://based.academy/assets/tiktok.svg" width="24" height="24" alt="TikTok" class="icon"></a>
+        <a href="https://bsky.app/profile/diinki.imp.studio" target="_blank" rel="noopener"><img src="https://based.academy/assets/bluesky.svg" width="24" height="24" alt="Bluesky" class="icon"></a>
+        <a href="https://diinki.bandcamp.com/" target="_blank" rel="noopener"><img src="https://based.academy/assets/bandcamp.svg" width="24" height="24" alt="Bandcamp" class="icon"></a>
+        <a href="https://open.spotify.com/artist/7HYYMhMpCgQSCkmLVkVqlJ" target="_blank" rel="noopener"><img src="https://based.academy/assets/spotify.svg" width="24" height="24" alt="Spotify" class="icon"></a>
+        <a href="https://ko-fi.com/diinki" target="_blank" rel="noopener"><img src="https://based.academy/assets/ko-fi.svg" width="24" height="24" alt="Ko-fi" class="icon"></a>
+        <p>As a forest goblin on the endangered species list, diinki is a Nix OS enjoyer who unironically wears thigh high socks while using a ThinkPad laptop. Very based, indeed.</p>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Bread on Penguins</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-23:bread-on-penguins</id>
+    <updated>2026-03-23T11:00:00Z</updated>
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/@BreadOnPenguins" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://github.com/BreadOnPenguins" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <a href="https://unicornmasquerade.bandcamp.com" target="_blank" rel="noopener"><img src="https://based.academy/assets/bandcamp.svg" width="24" height="24" alt="Bandcamp" class="icon"></a>
+        <a href="https://www.patreon.com/breadonpenguins" target="_blank" rel="noopener"><img src="https://based.academy/assets/patreon.svg" width="24" height="24" alt="Patreon" class="icon"></a>
+        <p>The girl version of Luke Smith, known for spending a lot of time in the woods by herself, making quirky music, and spreading the Gospel of Linux.</p>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Тsфdiиg</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-24:tsoding</id>
+    <updated>2026-03-24T11:00:00Z</updated>
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/tsoding" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://www.youtube.com/@TsodingDaily" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://tsoding.github.io/" target="_blank" rel="noopener"><img src="https://based.academy/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://www.twitch.tv/tsoding" target="_blank" rel="noopener"><img src="https://based.academy/assets/twitch.svg" width="24" height="24" alt="Twitch" class="icon"></a>
+        <a href="https://github.com/tsoding" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <a href="https://github.com/rexim" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <a href="https://x.com/tsoding" target="_blank" rel="noopener"><img src="https://based.academy/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
+        <a href="https://bsky.app/profile/tsoding.bsky.social" target="_blank" rel="noopener"><img src="https://based.academy/assets/bluesky.svg" width="24" height="24" alt="Bluesky" class="icon"></a>
+        <a href="https://www.patreon.com/tsoding" target="_blank" rel="noopener"><img src="https://based.academy/assets/patreon.svg" width="24" height="24" alt="Patreon" class="icon"></a>
+        <p>Recreational programmer. Known for being an evil Emacs user, but he also uses Vim, so he's ok.</p>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Cyb3rMaddy</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-25:cyb3rmaddy</id>
+    <updated>2026-03-25T12:00:00Z</updated>
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/@Cyb3rMaddy" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://linktr.ee/Cyb3rMaddy" target="_blank" rel="noopener"><img src="https://based.academy/assets/linktree.svg" width="24" height="24" alt="Linktree" class="icon"></a>
+        <a href="https://www.twitch.tv/cyb3rmaddy" target="_blank" rel="noopener"><img src="https://based.academy/assets/twitch.svg" width="24" height="24" alt="Twitch" class="icon"></a>
+        <a href="https://github.com/Cyb3rMaddy" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <a href="https://x.com/Cyb3rMaddy" target="_blank" rel="noopener"><img src="https://based.academy/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
+        <a href="https://instagram.com/Cyb3rMaddy" target="_blank" rel="noopener"><img src="https://based.academy/assets/instagram.svg" width="24" height="24" alt="Instagram" class="icon"></a>
+        <a href="https://discord.com/servers/thehivemind-1235399448780341289" target="_blank" rel="noopener"><img src="https://based.academy/assets/discord.svg" width="24" height="24" alt="Discord" class="icon"></a>
+        <p>Maddy is known for ranting about cyber security, being a penguin enjoyer, and teaching you how to be a haxx0r. Also, people aren't quite sure if she's AI or not.</p>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Internet of Bugs</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-22:internet-of-bugs</id>
+    <updated>2026-03-22T10:00:00Z</updated>
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/@InternetOfBugs" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://internetofbugs.com/" target="_blank" rel="noopener"><img src="https://based.academy/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://x.com/CarlBrwn" target="_blank" rel="noopener"><img src="https://based.academy/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
+        <a href="https://github.com/carlbrown" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <a href="https://bsky.app/profile/internetofbugs.com" target="_blank" rel="noopener"><img src="https://based.academy/assets/bluesky.svg" width="24" height="24" alt="Bluesky" class="icon"></a>
+        <a href="https://mastodon.social/@carlbrown" target="_blank" rel="noopener"><img src="https://based.academy/assets/mastodon.svg" width="24" height="24" alt="Mastodon" class="icon"></a>
+        <p>Carl is known for his videos on the state of software development, and his level-headed criticism of AI. Also, I'm pretty sure he's really into anime.</p>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>Metal Outlaw</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-21:metal-outlaw</id>
+    <updated>2026-03-21T13:00:00Z</updated>
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/@MentalOutlaw" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://odysee.com/@AlphaNerd:8" target="_blank" rel="noopener"><img src="https://based.academy/assets/odysee.svg" width="24" height="24" alt="Odysee" class="icon"></a>
+        <a href="https://based.win/" target="_blank" rel="noopener"><img src="https://based.academy/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <p>Luke Smith's deepfake account.</p>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>DHH</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-23:dhh</id>
+    <updated>2026-03-23T12:00:00Z</updated>
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/@dhh37" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://world.hey.com/dhh" target="_blank" rel="noopener"><img src="https://based.academy/assets/hands.svg" width="24" height="24" alt="HEY" class="icon"></a>
+        <a href="https://dhh.dk/" target="_blank" rel="noopener"><img src="https://based.academy/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
+        <a href="https://github.com/DHH" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <a href="https://37signals.com/podcast/" target="_blank" rel="noopener"><img src="https://based.academy/assets/podcast.svg" width="24" height="24" alt="The REWORK Podcast" class="icon"></a>
+        <a href="https://x.com/dhh" target="_blank" rel="noopener"><img src="https://based.academy/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
+        <a href="https://www.instagram.com/dhhdrives/" target="_blank" rel="noopener"><img src="https://based.academy/assets/instagram.svg" width="24" height="24" alt="Instagram" class="icon"></a>
+        <a href="mailto:dhh@hey.com" target="_blank" rel="noopener"><img src="https://based.academy/assets/envelope.svg" width="24" height="24" alt="Email" class="icon"></a>
+        <a href="https://en.wikipedia.org/wiki/David_Heinemeier_Hansson" target="_blank" rel="noopener"><img src="https://based.academy/assets/wikipedia-w.svg" width="24" height="24" alt="Wikipedia" class="icon"></a>
+        <p>David Heinemeier Hansson (clearly a misspelling of Handsome) is known for making racing cars go vroom, getting into trouble on X, and creating a little-known <a href="https://rubyonrails.org/" target="_blank" rel="noopener" class="body-link">Ruby blog framework</a>.</p>
+      ]]>
+    </content>
+  </entry>
+
+  <entry>
+    <title>The Primeagen</title>
+    <link href="https://based.academy/"/>
+    <id>tag:based.academy,2026-03-21:the-primeagen</id>
+    <updated>2026-03-21T14:00:00Z</updated>
+    <content type="html">
+      <![CDATA[
+        <a href="https://www.youtube.com/@ThePrimeTimeagen" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://www.youtube.com/@ThePrimeagen" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
+        <a href="https://www.twitch.tv/theprimeagen" target="_blank" rel="noopener"><img src="https://based.academy/assets/twitch.svg" width="24" height="24" alt="Twitch" class="icon"></a>
+        <a href="https://github.com/theprimeagen" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
+        <a href="https://x.com/ThePrimeagen" target="_blank" rel="noopener"><img src="https://based.academy/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
+        <a href="https://www.tiktok.com/@theprimeagen" target="_blank" rel="noopener"><img src="https://based.academy/assets/tiktok.svg" width="24" height="24" alt="TikTok" class="icon"></a>
+        <a href="https://www.instagram.com/ThePrimeagen" target="_blank" rel="noopener"><img src="https://based.academy/assets/instagram.svg" width="24" height="24" alt="Instagram" class="icon"></a>
+        <p>Known for having four kids, being a Kinesis split keyboard enjoyer, and saying YA-YA YA-YA YAYAYAYA YA YA-YA-YA (Yes, I counted the YAs). Also, he may have worked as an <a href="https://www.youtube.com/watch?v=JjHFubUPLV0" target="_blank" rel="noopener" class="body-link">engineer at Netflix</a>, or whatever.</p>
       ]]>
     </content>
   </entry>
@@ -70,12 +276,12 @@
   <!-- <entry> -->
   <!--   <title>Name</title> -->
   <!--   <link href="https://based.academy/"/> -->
-  <!--   <id></id> -->
+  <!--   <id>tag:based.academy,YYYY-MM-DD:slug</id> -->
   <!--   <updated>2026-03-21T10:00:00Z</updated> -->
-  <!---->
+  <!--  -->
   <!--   <content type="html"> -->
   <!--     <![CDATA[ -->
-  <!---->
+  <!--  -->
   <!--     ]]> -->
   <!--   </content> -->
   <!-- </entry> -->

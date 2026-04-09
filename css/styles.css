@@ -81,6 +81,10 @@ img.icon {
   vertical-align: -5px;
 }
 
+img.icon-top {
+  vertical-align: top;
+}
+
 img.label {
   vertical-align: -4px;
 }
@@ -101,8 +105,18 @@ p {
 	text-align: justify;
 }
 
+#header {
+	min-height: 3rem;
+}
+
+.spacer {
+	height: 0.1em;
+}
+
 h1 {
 	font-size: 69px;
+	text-align: center;
+	margin-top: 0;
 }
 
 h2 {
