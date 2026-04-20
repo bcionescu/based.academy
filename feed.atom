@@ -11,6 +11,11 @@
   <email>christian@bcionescu.com</email>
 </author>
 
+  <!-- Add Siliconversations -->
+  <!-- Add Lunduke Journal -->
+  <!-- Add Expert Trout -->
+  <!-- Add Casey Muratori -->
+
   <entry>
     <title>Mo Bitar</title>
     <link href="https://based.academy/"/>
@@ -72,7 +77,7 @@
         <a href="https://youtube.com/@bcionescu" target="_blank" rel="noopener"><img src="https://based.academy/assets/youtube.svg" width="24" height="24" alt="YouTube" class="icon"></a>
         <a href="https://bcionescu.com" target="_blank" rel="noopener"><img src="https://based.academy/assets/globe.svg" width="24" height="24" alt="Website" class="icon"></a>
         <a href="https://geni.us/basedbooks" target="_blank" rel="noopener"><img src="https://based.academy/assets/book-bookmark.svg" width="24" height="24" alt="Books" class="icon"></a>
-        <a href="https://x.com/bcionescu_" target="_blank" rel="noopener"><img src="https://based.academy/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
+        <a href="https://x.com/SpeakMachineX" target="_blank" rel="noopener"><img src="https://based.academy/assets/x-twitter.svg" width="24" height="24" alt="Twitter" class="icon"></a>
         <a href="https://github.com/bcionescu" target="_blank" rel="noopener"><img src="https://based.academy/assets/github.svg" width="24" height="24" alt="GitHub" class="icon"></a>
         <p>A 33 yo white-haired boomer known for <a href="https://www.youtube.com/watch?v=1qgb8gbk9eo" target="_blank" rel="noopener" class="body-link">reading the Vim manual in its entirety on YouTube</a>, <a href="https://geni.us/basedbooks" target="_blank" rel="noopener" class="body-link">writing science fiction novels</a>, and occasionally making videos about computers, or ranting in the woods.</p>
       ]]>
@@ -219,9 +224,9 @@
   </entry>
 
   <entry>
-    <title>Metal Outlaw</title>
+    <title>Mental Outlaw</title>
     <link href="https://based.academy/"/>
-    <id>tag:based.academy,2026-03-21:metal-outlaw</id>
+    <id>tag:based.academy,2026-03-21:mental-outlaw</id>
     <updated>2026-03-21T13:00:00Z</updated>
     <content type="html">
       <![CDATA[
