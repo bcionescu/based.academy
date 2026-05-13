@@ -77,6 +77,27 @@ body::-webkit-scrollbar {
   width: auto;
 }
 
+.ascii-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ascii-container pre {
+  font-size: 1.2vw;
+  line-height: 1.2;
+  font-family: monospace;
+  white-space: pre;
+  display: inline-block;
+}
+
+@media (max-width: 480px) {
+  .ascii-container pre {
+    font-size: clamp(8px, 2.2vw, 14px);
+  }
+}
+
 img.icon {
   vertical-align: -5px;
 }
