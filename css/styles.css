@@ -5,24 +5,24 @@
  */
 
 @font-face {
-	font-family: 'iAWriterMono';
-	src: url('../fonts/iAWriterMonoS-Regular.woff2') format('woff2');
+	font-family: 'IBMPlexMono';
+	src: url('../fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'iAWriterMono';
-	src: url('../fonts/iAWriterMonoS-Bold.woff2') format('woff2');
+	font-family: 'IBMPlexMono';
+	src: url('../fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2') format('woff2');
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'iAWriterMono';
-	src: url('../fonts/iAWriterMonoS-Italic.woff2') format('woff2');
+	font-family: 'IBMPlexMono';
+	src: url('../fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2') format('woff2');
 	font-weight: normal;
 	font-style: italic;
 	font-display: swap;
@@ -37,7 +37,7 @@ body {
 	background-color: #1B1B1B;
 	color: white;
 	font-size: 18px;
-	font-family: 'iAWriterMono', Consolas, Menlo, Monaco, monospace;
+	font-family: 'IBMPlexMono', Consolas, Menlo, Monaco, monospace;
 	overflow: auto;
   scrollbar-width: none;
 }
@@ -86,8 +86,8 @@ body::-webkit-scrollbar {
 
 .ascii-container pre {
   font-size: 1.2vw;
-  line-height: 1.2;
-  font-family: monospace;
+  line-height: 1.5;
+  font-family: 'IBMPlexMono', Consolas, Menlo, Monaco, monospace;
   white-space: pre;
   display: inline-block;
 }
@@ -123,7 +123,7 @@ img.label {
 }
 
 p {
-	text-align: justify;
+	text-align: left;
 }
 
 #header {
