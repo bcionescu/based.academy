@@ -90,6 +90,8 @@ body::-webkit-scrollbar {
   font-family: 'IBMPlexMono', Consolas, Menlo, Monaco, monospace;
   white-space: pre;
   display: inline-block;
+  letter-spacing: -0.04em;
+  transform: scaleY(0.785);
 }
 
 @media (max-width: 480px) {
